@@ -1,0 +1,39 @@
+{
+  "applicationId": "js.localdevmanager",
+  "defaultMode": "window",
+  "port": 0,
+  "url": "/index.html",
+  "documentRoot": "/dist",
+  "enableServer": true,
+  "injectClientLibrary": true,
+  "enableNativeAPI": true,
+  "tokenSecurity": "none",
+  "nativeAllowList": [
+    "app.*",
+    "events.*",
+    "filesystem.*",
+      "os.showOpenDialog",
+    "os.execCommand",
+    "os.getEnv",
+    "window.*"
+  ],
+  "logging": {
+    "enabled": true,
+    "writeToLogFile": true
+  },
+  "cli": {
+    "resourcesPath": "dist",
+    "binaryName": "local-dev-manager",
+    "binaryVersion": "6.5.0"
+  },
+  "modes": {
+    "window": {
+      "title": "Local Dev Environment Manager",
+      "width": 1180,
+      "height": 780,
+      "minWidth": 960,
+      "minHeight": 640,
+      "enableInspector": true
+    }
+  }
+}

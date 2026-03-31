@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at top right, #c7e6ff 0%, #e9f2f9 35%, #f4f8fb 100%);
+  color: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}

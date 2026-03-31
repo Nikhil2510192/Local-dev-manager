@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Frontend Dev Server",
+    "command": "npm run dev",
+    "cwd": ".",
+    "port": 5173
+  },
+  {
+    "name": "API Server",
+    "command": "npm run dev:api",
+    "cwd": ".",
+    "port": 3000
+
+  }
+]
